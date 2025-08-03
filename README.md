@@ -12,33 +12,31 @@ Researchers face challenges in understanding and summarizing large volumes of sc
 
 ## ⚙️ System Workflow
 
-
-->The ThinkBot workflow begins with users uploading or pasting research text (abstract or full paper). 
-->This input is embedded into a structured prompt within IBM Watsonx Prompt Lab. 
-->The model processes the prompt and generates an organized output including summaries, hypotheses, citations, tools, and limitations. 
-->The response is displayed within Watsonx Prompt Lab or via an optional UI, providing quick and accurate insights into research content.
+- The ThinkBot workflow begins with users uploading or pasting research text (abstract or full paper).  
+- This input is embedded into a structured prompt within IBM Watsonx Prompt Lab.  
+- The model processes the prompt and generates an organized output including summaries, hypotheses, citations, tools, and limitations.  
+- The response is displayed within Watsonx Prompt Lab or via an optional UI, providing quick and accurate insights into research content.
 
 ---
 
 ## 🎯 Objective
 
-- Summarize research papers and abstracts
-- Suggest follow-up research questions or hypotheses
-- Identify domain, keywords, tools, datasets, and limitations
-- Highlight citation-worthy insights
+- Summarize research papers and abstracts  
+- Suggest follow-up research questions or hypotheses  
+- Identify domain, keywords, tools, datasets, and limitations  
+- Highlight citation-worthy insights  
 - Present results in a structured, easy-to-read format
 
 ---
 
 ## 🛠 Technologies Used
 
-| Component              | Technology                   |
-|------------------------|------------------------------|
-| LLM Engine             | IBM Watsonx Granite Model    |
-| Prompt Execution       | IBM Watsonx Prompt Lab       |
-| Multilingual (Optional)| IBM Watson Translator        |
-| PDF Parsing (Future)   | PyMuPDF / pdfplumber         |
-
+| Component               | Technology                   |
+|-------------------------|------------------------------|
+| LLM Engine              | IBM Watsonx Granite Model    |
+| Prompt Execution        | IBM Watsonx Prompt Lab       |
+| Multilingual (Optional) | IBM Watson Translator        |
+| PDF Parsing (Future)    | PyMuPDF / pdfplumber         |
 
 ---
 
@@ -55,7 +53,9 @@ Researchers face challenges in understanding and summarizing large volumes of sc
 
 ## ✅ Output
 
-![Output](assets/1.jpg)
+![Output 1](assests/1.jpg)  
+
+![Output 2](assests/2.jpg)
 
 ---
 
@@ -64,18 +64,15 @@ Researchers face challenges in understanding and summarizing large volumes of sc
 - PDF upload & automated text extraction  
 - Multilingual summarization using IBM Watson Translator  
 - Export to PDF or Word format  
-- Integration with citation managers
+- Integration with citation managers  
 - Voice-enabled chatbot for accessibility  
 
 ---
 
 ## 📚 References
 
-1. IBM Watsonx Prompt Lab – [https://dataplatform.cloud.ibm.com/promptlab](https://dataplatform.cloud.ibm.com/promptlab)
-2. IBM Cloud Lite Documentation – (https://cloud.ibm.com/docs)
-
-
-
+1. IBM Watsonx Prompt Lab – [https://dataplatform.cloud.ibm.com/promptlab](https://dataplatform.cloud.ibm.com/promptlab)  
+2. IBM Cloud Lite Documentation – [https://cloud.ibm.com/docs](https://cloud.ibm.com/docs)
 
 ---
 
